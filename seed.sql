@@ -6,7 +6,6 @@ USE emp_tracker_db;
 
 CREATE TABLE department
 (
-    id INT NOT NULL AUTO_INCREMENT,
+    id INTEGER PRIMARY KEY,
     name VARCHAR(30) NOT NULL,
-    PRIMARY KEY(id)
 )
