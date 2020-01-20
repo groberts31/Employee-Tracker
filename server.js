@@ -81,12 +81,12 @@ function addDepartment() {
         {
           name: "title",
           type: "input",
-          message: "What title are you adding?",
+          message: "What role title are you adding?",
         },
         {
           name: "salary",
           type: "input",
-          message: "How much for the salary?",
+          message: "What is the salary for this position?",
         },
         {
           name: "departmentId",
@@ -105,7 +105,7 @@ function addDepartment() {
           },
           function(err) {
             if (err) throw err;
-            console.log("Your role was added!");
+            console.log("Role Added!");
             runSearch();
           }
         );
@@ -118,12 +118,12 @@ function addDepartment() {
         {
           name: "first",
           type: "input",
-          message: "What is the first name?",
+          message: "What is the first name of employee?",
         },
         {
           name: "last",
           type: "input",
-          message: "What is the last name?",
+          message: "What is the last name of employee?",
         },
         {
           name: "roleId",
@@ -147,7 +147,7 @@ function addDepartment() {
           },
           function(err) {
             if (err) throw err;
-            console.log("Your employee was added!");
+            console.log("Employee Added!");
             runSearch();
           }
         );
